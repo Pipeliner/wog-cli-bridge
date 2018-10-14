@@ -1,0 +1,24 @@
+ZVSE
+
+!#UN:P5/0;
+!#TM1:S1/999/1/1;
+
+!#OB0/0/0:T1;
+!#OB1/0/0:T1;
+
+!#VRv106:S666;
+
+!?OB0/0/0
+!!IF:M^We'll repaint that mine {blue} tomorrow morning^;
+!!VRv106:S178;
+
+!?OB1/0/0
+!!IF:M^We'll repaint that mine {red} tomorrow morning^;
+!!VRv106:S996;
+
+!?TM1&v106=996;
+!!MN0/5/0:O0;
+
+!?TM1&v106=178;
+!!MN0/5/0:O1;
+
